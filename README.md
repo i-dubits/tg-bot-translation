@@ -13,5 +13,5 @@ You should change paths in [config](bot/config.py) file in order to run it on yo
 Main entry point for bot initialization is [main.py](main.py) file. Bot name is @translate_tr_bot. 
 
 <p align="center">
-  <img width="460" height="300" src="img.png">
+  <src="img.png">
 </p>
