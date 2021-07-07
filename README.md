@@ -12,4 +12,6 @@ BLEU score increased by just 0.3 points which indicates that further training is
 You should change paths in [config](bot/config.py) file in order to run it on your system. Do not forget to add your Telegram token as well.
 Main entry point for bot initialization is [main.py](main.py) file. Bot name is @translate_tr_bot. 
 
-![ScreenShot](img.png)
+<p align="center">
+  <img width="460" height="300" src="img.png">
+</p>
