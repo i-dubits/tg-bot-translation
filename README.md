@@ -5,8 +5,9 @@ are from [Yandex parallel corpus](https://translate.yandex.ru/corpus?lang=en). T
 best translates sentences related to apartments and hotels descriptions. 
 
 Transformer implementation from [DLS school seminar](https://drive.google.com/drive/u/0/folders/1uzNwvPY4rzmkogdWto-tnjsl26wk04Lw) was used. Number of encoder 
-and decoder layers was chosen to be four. The model studied for 47 epochs. It reached 19.66 BLEU score on test set. During the last 15 epochs
+and decoder layers was chosen to be four. [Gensim Word2vec](https://radimrehurek.com/gensim/models/word2vec.html) embeddings were initially trained on dataset. The model studied for 47 epochs. It reached 19.66 BLEU score on test set. During the last 15 epochs
 BLEU score increased by just 0.3 points which indicates that further training is unlikely to improve inference results.
+Actual notebook used for model training can be found [here](ver-6.ipynb) (partly in Russian). 
 
 **Telegram bot** is written using [AIOGram](https://github.com/aiogram/aiogram) asynchronous framework. It is located in [bot](bot) folder. 
 You should change paths in [config.py](bot/config.py) file in order to run it on your system. Do not forget to add your Telegram token as well.
