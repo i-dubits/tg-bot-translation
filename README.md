@@ -11,7 +11,7 @@ Actual notebook used for model training can be found [here](ver-6.ipynb).
 
 **Telegram bot** is written using [AIOGram](https://github.com/aiogram/aiogram) asynchronous framework. It is located in [bot](bot) folder. 
 You should change paths in [config.py](bot/config.py) file in order to run it on your system. Do not forget to add your Telegram token as well.
-Main entry point for bot initialization is [main.py](main.py) file. Bot name is @translate_tr_bot. 
+Main entry point for bot initialization is [main.py](main.py) file. Bot name is @translate_tr_bot 
 
 <p align="center">
   <img src="img.png" />
